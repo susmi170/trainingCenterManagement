@@ -2,7 +2,7 @@
 This is a spring boot project which contains codebase for CRUD APIs needed for a Training Center management system
 This is a Project for "Training center Managemnet Application"  
     
-  ** Setup and run :-  ** 
+  **Setup and run :-** 
   1.Please fork this repo and open the project in IDE.  
   2.Git clone to your local system and open in IDE/ or setup via git link directly to your IDE  
   3.DB used H2 in memory with DB name:trainingCenterManagement, username : susmita , no passwrod. (http://localhost:8082/h2-console/)  
@@ -17,7 +17,7 @@ This is a Project for "Training center Managemnet Application"
   note : we shoud use the resource as it is and use Rest method to define them , should not create endpoint like createtrainingCenter  
   as POST is dedicated to create trainingCenter , GET for getting  
     
-  swagger url:(http://localhost:8082/swagger-ui/index.html)  
+  **swagger url**:(http://localhost:8082/swagger-ui/index.html)  
   has all the details for each api and response code and all the details  
     
   Tables:  
@@ -30,7 +30,7 @@ This is a Project for "Training center Managemnet Application"
   ID is the primary key ,will be automatcailly genarted by sequence for both the tables  
     
      
-   ----Technology used:---  
+   **----Technology used:---**  
    Java 17 with Spring boot  
    Lombok for data generation(constructor and getter ,setter)  
    Mapstruct:(TrainingCenterMapper.java) For converting Dto to Entity pojo and vice versa . In this project using TrainingCenterDto for all api calls , and TrainingCenter entity for Database table  
@@ -38,13 +38,11 @@ This is a Project for "Training center Managemnet Application"
   Open-API : for Swagger api documentation (http://localhost:8082/swagger-ui/index.html#/ )  
   Database: H2 inmemory DB with SPring data JPA  
   Junit for service layer method testing .(TrainingCenterServiceTest.java)  
-    
-    
-   Build tool :Gradle  
+  Build tool :Gradle  
      
      
      
-  -------API details:----  
+  **-------API details:----**  
     
   1.Create TrainingCenter :-  
   Endpoint : http://localhost:8082/trainingCenter  
