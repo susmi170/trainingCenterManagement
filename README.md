@@ -2,7 +2,7 @@
 This is a spring boot project which contains codebase for CRUD APIs needed for a Training Center management system
 This is a Project for "Training center Managemnet Application"  
     
-  Setup and run :-  
+  ** Setup and run :-  ** 
   1.Please fork this repo and open the project in IDE.  
   2.Git clone to your local system and open in IDE/ or setup via git link directly to your IDE  
   3.DB used H2 in memory with DB name:trainingCenterManagement, username : susmita , no passwrod. (http://localhost:8082/h2-console/)  
