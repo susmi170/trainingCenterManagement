@@ -20,7 +20,7 @@ This is a Project for "Training center Managemnet Application"
   **swagger url**:(http://localhost:8082/swagger-ui/index.html)  
   has all the details for each api and response code and all the details  
     
-  Tables:  
+  **Tables:**  
     
   TRAINING_CENTER :  
   ID,CENTER_NAME,CENTER_CODE,STUDENT_CAPACITY,CONTACT_EMAIL,CONTACT_PHONE,COURSES,CREATED_ON,ADDRESS_ID  
